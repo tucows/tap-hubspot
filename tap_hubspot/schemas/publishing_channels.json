@@ -1,0 +1,238 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "portalId": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "channelId": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "channelType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "accountGuid": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "data": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "firstName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "lastName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "fullName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "userId": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "picture": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "pageId": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "pageCategory": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "facebookPageTasks": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "pictureUrl": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "pageNameWithLocationDescriptor": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "pageName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "pageLocation": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "pageUsername": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "instagramName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "instagramUsername": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "instagramUserId": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "instagramPicture": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "instagramWebsite": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "channelGuid": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "updatedAt": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "channelKey": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "active": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "shared": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "hidden": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "canPublish": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "accountType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "channelSlug": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "profileUrl": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "username": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "avatarUrl": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "parentId": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}

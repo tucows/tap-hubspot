@@ -1,0 +1,128 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "updatedAt": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "domain": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "isPrimaryLandingPage": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isPrimaryEmail": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isPrimaryBlogPost": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isPrimarySitePage": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isPrimaryKnowledge": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "redirectTo": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "isResolving": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isManuallyMarkedAsResolving": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isHttpsEnabled": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isHttpsOnly": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isUsedForBlogPost": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isUsedForSitePage": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isUsedForLandingPage": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isUsedForEmail": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isUsedForKnowledge": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "expectedCname": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}

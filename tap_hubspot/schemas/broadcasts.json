@@ -1,0 +1,401 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "broadcastGuid": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "portalId": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "groupGuid": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "campaignGuid": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "channelKey": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "channelGuid": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "clientTag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "userUpdatedAt": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "triggerAt": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "finishedAt": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "status": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "message": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "content": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "uncompressedLinks": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "hashtagCount": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "charCount": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "body": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "originalBody": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "originalLink": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "photoUrl": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "imageUrl": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "fileId": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "description": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "title": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "linkPreviewSuppressed": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "link": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "thumbUrl": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "foreignPostId": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "linkGuid": {
+      "type": [
+        "null"
+      ]
+    },
+    "messageUrl": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "foreignId": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "taskQueueId": {
+      "type": [
+        "null"
+      ]
+    },
+    "linkTaskQueueId": {
+      "type": [
+        "null"
+      ]
+    },
+    "remoteContentId": {
+      "type": [
+        "null"
+      ]
+    },
+    "remoteContentType": {
+      "type": [
+        "null"
+      ]
+    },
+    "clicks": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "replies": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "retweets": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "likes": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "interactionsCount": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "createdBy": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "updatedBy": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "campaignName": {
+      "type": [
+        "null"
+      ]
+    },
+    "broadcastMediaType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "wasDraft": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "channel": {
+      "type": [
+        "null"
+      ]
+    },
+    "serviceId": {
+      "type": [
+        "null"
+      ]
+    },
+    "extraData": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "body": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "updatedClientTag": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "files": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "url": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "mediaType": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "height": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              },
+              "width": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              },
+              "description": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "fileStatus": {
+                "type": [
+                  "null"
+                ]
+              },
+              "id": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "foreignIdForBoost": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "isRetry": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isPending": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isPublished": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "messageText": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "isFailed": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "objects": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "properties": {
+          "portalId": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "objectType": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "objectId": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "isDeleted": {
+            "type": [
+              "null",
+              "boolean"
+            ]
+          }
+        }
+      }
+    },
+    "hasMore": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "offset": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    }
+  }
+}
