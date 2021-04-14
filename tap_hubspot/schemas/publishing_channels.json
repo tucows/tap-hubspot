@@ -210,13 +210,13 @@
         "string"
       ]
     },
-    "profileUrl": {
+    "username": {
       "type": [
         "null",
         "string"
       ]
     },
-    "username": {
+    "profileUrl": {
       "type": [
         "null",
         "string"

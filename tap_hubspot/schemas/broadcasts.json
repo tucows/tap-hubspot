@@ -286,6 +286,12 @@
         "null"
       ]
     },
+    "foreignIdForBoost": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
     "extraData": {
       "type": [
         "null",
@@ -361,13 +367,7 @@
         }
       }
     },
-    "foreignIdForBoost": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "isRetry": {
+    "isFailed": {
       "type": [
         "null",
         "boolean"
@@ -385,16 +385,16 @@
         "boolean"
       ]
     },
+    "isRetry": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
     "messageText": {
       "type": [
         "null",
         "string"
-      ]
-    },
-    "isFailed": {
-      "type": [
-        "null",
-        "boolean"
       ]
     }
   }
