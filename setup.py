@@ -11,7 +11,7 @@ setup(
     py_modules=["tap_hubspot"],
     install_requires=[
         "requests",
-        "singer-sdk==0.1.0",
+        "singer-sdk",
         "singer-tools",
     ],
     entry_points="""

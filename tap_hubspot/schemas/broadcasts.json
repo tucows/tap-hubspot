@@ -373,13 +373,13 @@
         "boolean"
       ]
     },
-    "isPending": {
+    "isPublished": {
       "type": [
         "null",
         "boolean"
       ]
     },
-    "isPublished": {
+    "isPending": {
       "type": [
         "null",
         "boolean"
