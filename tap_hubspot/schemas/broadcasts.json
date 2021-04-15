@@ -367,13 +367,7 @@
         }
       }
     },
-    "isFailed": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "isPublished": {
+    "isRetry": {
       "type": [
         "null",
         "boolean"
@@ -385,7 +379,7 @@
         "boolean"
       ]
     },
-    "isRetry": {
+    "isPublished": {
       "type": [
         "null",
         "boolean"
@@ -395,6 +389,12 @@
       "type": [
         "null",
         "string"
+      ]
+    },
+    "isFailed": {
+      "type": [
+        "null",
+        "boolean"
       ]
     }
   }

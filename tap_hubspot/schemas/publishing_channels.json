@@ -210,7 +210,7 @@
         "string"
       ]
     },
-    "username": {
+    "avatarUrl": {
       "type": [
         "null",
         "string"
@@ -222,7 +222,7 @@
         "string"
       ]
     },
-    "avatarUrl": {
+    "username": {
       "type": [
         "null",
         "string"

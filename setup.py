@@ -5,14 +5,12 @@ setup(
     name="tap-hubspot",
     version="0.1.0",
     description="Singer.io tap for extracting data",
-    author="Stitch",
-    url="http://singer.io",
+    author="Tucows",
+    url="https://github.com/tucowsinc/tap-hubspot.git",
     classifiers=["Programming Language :: Python :: 3 :: Only"],
     py_modules=["tap_hubspot"],
     install_requires=[
-        "requests",
         "singer-sdk",
-        "singer-tools",
     ],
     entry_points="""
     [console_scripts]
