@@ -4,19 +4,29 @@
 
 Build with the [Singer SDK](https://gitlab.com/meltano/singer-sdk).
 
+# CONTRIBUTIONS ONLY
+
+**What does this mean?** The only way fixes or new features will be added is by people submitting PRs.
+
 ## Installation
 
 - [ ] `Install from your git repo:`
 
 ```bash
-pip install -e git+ssh://git@github.com/tucowsinc/tap-hubspot.git#egg=tap-hubspot
+pip install -e git+ssh://git@github.com:tucows/tap-hubspot.git#egg=tap-hubspot
 ```
 
 ## Configuration
 
 ### Accepted Config Options
 
-- [ ] `Developer TODO:` Provide a list of config options accepted by the tap.
+- [ ] `Configuration parameters:`
+```bash
+{
+    "api_url": "https://api.hubapi.com",
+    "hapikey": "********-****-****-****-**********"
+}
+```
 
 A full list of supported settings and capabilities for this
 tap is available by running:
@@ -24,10 +34,6 @@ tap is available by running:
 ```bash
 tap-hubspot --about
 ```
-
-### Source Authentication and Authorization
-
-- [ ] `Developer TODO:` If your tap requires special access on the source system, or any special authentication requirements, provide those here.
 
 ## Usage
 

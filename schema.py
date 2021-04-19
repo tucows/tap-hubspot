@@ -15,7 +15,7 @@ from tap_hubspot.tap import Taphubspot
 from singer_sdk.streams.rest import RESTStream
 
 """
-Description: Module generates schemas for stream passed as argument at runtime
+Description: Module generates schemas for all streams
 Usage: python schema.py
 """
 
