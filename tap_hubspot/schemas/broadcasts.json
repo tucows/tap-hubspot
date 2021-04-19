@@ -286,12 +286,6 @@
         "null"
       ]
     },
-    "foreignIdForBoost": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
     "extraData": {
       "type": [
         "null",
@@ -367,7 +361,13 @@
         }
       }
     },
-    "isRetry": {
+    "foreignIdForBoost": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "isPublished": {
       "type": [
         "null",
         "boolean"
@@ -379,7 +379,7 @@
         "boolean"
       ]
     },
-    "isPublished": {
+    "isRetry": {
       "type": [
         "null",
         "boolean"
