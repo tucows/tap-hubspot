@@ -38,7 +38,7 @@ tap-hubspot --about
 ## Usage
 `After installation:` Streams output to standard output when you run
 ```bash
-tap-hubspot --config tap_hubspot_config.json
+tap-hubspot --config sample_tap_hubspot_config.json
 ```
 
 You can easily run `tap-hubspot` by itself or in a pipeline using [Meltano](www.meltano.com).
@@ -48,7 +48,7 @@ You can easily run `tap-hubspot` by itself or in a pipeline using [Meltano](www.
 ```bash
 tap-hubspot --version
 tap-hubspot --help
-tap-hubspot --config CONFIG --discover > ./catalog.json
+tap-hubspot --config sample_tap_hubspot_config.json --discover > ./catalog.json
 ```
 
 ## Developer Resources

@@ -3,3 +3,4 @@
 !sample_tap_hubspot_config.json
 data.json
 *.egg-info
+target-stitch
