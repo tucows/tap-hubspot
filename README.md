@@ -20,7 +20,7 @@ pip install -e git+ssh://git@github.com:tucows/tap-hubspot.git#egg=tap-hubspot
 
 ### Accepted Config Options
 
-- [ ] `Configuration parameters:`
+- [ ] `Configuration parameters:` Stored in a json file and provided with the mandatory --config option
 ```bash
 {
     "api_url": "https://api.hubapi.com",
@@ -36,6 +36,10 @@ tap-hubspot --about
 ```
 
 ## Usage
+`After installation:` Streams output to standard output when you run
+```bash
+tap-hubspot --config tap_hubspot_config.json
+```
 
 You can easily run `tap-hubspot` by itself or in a pipeline using [Meltano](www.meltano.com).
 

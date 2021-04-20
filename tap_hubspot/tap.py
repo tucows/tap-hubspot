@@ -39,9 +39,6 @@ STREAM_TYPES = [
     PublishingChannelsStream,
 ]
 
-with open("config.json") as config_file:
-    data = json.load(config_file)
-
 class Taphubspot(Tap):
     """hubspot tap class."""
 
@@ -49,9 +46,9 @@ class Taphubspot(Tap):
 
     # TODO: Update this section with the actual config values you expect:
     config_jsonschema = PropertiesList(
-        Property("hapikey", StringType, required=True, default=data['hapikey']),
+        Property("hapikey", StringType, required=True,),
         Property("start_date", DateTimeType),
-        Property("api_url", StringType, default=data['api_url']),
+        Property("api_url", StringType, required=True,),
     ).to_dict()
 
 
