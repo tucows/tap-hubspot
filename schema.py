@@ -15,7 +15,7 @@ from tap_hubspot.tap import Taphubspot
 from singer_sdk.streams.rest import RESTStream
 
 """
-Description: Module generates schemas for all streams
+Description: Module generates schemas for all streams in _streams_props dict
 Usage: python schema.py
 """
 
@@ -62,8 +62,18 @@ class SourceStream(RESTStream):
         else:
             return row
 
+# CLI argument parsing
+parser = argparse.ArgumentParser(
+    description='Generates or updates schema for all streams')
+parser.add_argument('-c', '--config', type=str, required=True,
+                    help='Specify config file path')
+args = parser.parse_args()
 
-tap = Taphubspot()
+config_file = Path.cwd() / args.config
+
+# Generate schemas
+tap = Taphubspot(config=config_file)
+
 STDOUT = sys.stdout
 try:
     for name, path in _streams_props.items():

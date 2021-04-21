@@ -41,6 +41,12 @@ tap-hubspot --about
 tap-hubspot --config sample_tap_hubspot_config.json
 ```
 
+### Generating schemas using singer-infer-schema from singer-tools package
+`Generate schemas for objects:` Update the stream:endpoint dictionary in schema.py then 
+```bash
+python schema.py --config sample_tap_hubspot_config.json
+```
+
 You can easily run `tap-hubspot` by itself or in a pipeline using [Meltano](www.meltano.com).
 
 ### Executing the Tap Directly

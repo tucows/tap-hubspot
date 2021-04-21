@@ -286,6 +286,12 @@
         "null"
       ]
     },
+    "foreignIdForBoost": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
     "extraData": {
       "type": [
         "null",
@@ -341,8 +347,7 @@
               },
               "description": {
                 "type": [
-                  "null",
-                  "string"
+                  "null"
                 ]
               },
               "fileStatus": {
@@ -361,13 +366,7 @@
         }
       }
     },
-    "foreignIdForBoost": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "isPublished": {
+    "isRetry": {
       "type": [
         "null",
         "boolean"
@@ -379,7 +378,7 @@
         "boolean"
       ]
     },
-    "isRetry": {
+    "isPublished": {
       "type": [
         "null",
         "boolean"
